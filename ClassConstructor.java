@@ -10,7 +10,8 @@ public class ClassConstructor {
 
     //Main method
     public static void main(String[] args){
+        //Create an object of the class (This will call the constructor)
         ClassConstructor miObj = new ClassConstructor();
-        System.out.println(miObj.x);
+        System.out.println(miObj.x); //Print the value
     }
 }
