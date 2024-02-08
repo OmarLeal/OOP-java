@@ -6,6 +6,7 @@ public class ImportPackage {
         /*Use any class of the package, like the Scanner. 
          * Create the object of the class and then we are good to go.
         */
+        @SuppressWarnings("resource")
         Scanner myObj = new Scanner(System.in);
         System.out.println("Ingresa tu edad: ");
         

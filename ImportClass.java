@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ImportClass {
     public static void main(String[] args){
         //Create an object from Scanner class
+        @SuppressWarnings("resource")
         Scanner myObj = new Scanner(System.in);
         //Printing the user data.
         System.out.println("Enter your name...");
