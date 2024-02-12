@@ -21,10 +21,17 @@ public class IteratorExample {
         miArrayList2.add("Python");
         miArrayList2.add("C#");
 
-        System.out.println(miArrayList2.get(1));
+        //System.out.println(miArrayList2.get(1));
 
         //Create the iterator
         Iterator<String> miIterator = miArrayList2.iterator();
-        System.out.println(miIterator.next());
-    }
+
+        //Get next item in array using iterator.
+        //System.out.println(miIterator.next());
+
+        //Looping trough the array using iterator.
+        while (miIterator.hasNext()) {
+            System.out.println(miIterator.next());
+        }
+    }   
 }
